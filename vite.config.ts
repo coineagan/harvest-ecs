@@ -5,7 +5,7 @@ import renderer from 'vite-plugin-electron-renderer';
 import path from 'path';
 
 export default defineConfig({
-	root: 'src/app',
+	root: 'src/scenes',
 	base: './',
 	build: {
 		outDir: path.resolve(__dirname, 'dist/renderer'),
@@ -19,7 +19,7 @@ export default defineConfig({
 	plugins: [
 		electron([
 			{
-				entry: 'main.ts',
+				entry: '../config/main.ts',
 				vite: {
 					build: {
 						outDir: path.resolve(__dirname, 'dist/main'),
@@ -30,7 +30,7 @@ export default defineConfig({
 				},
 			},
 			{
-				entry: 'preload.ts',
+				entry: '../config/preload.ts',
 				vite: {
 					build: {
 						outDir: path.resolve(__dirname, 'dist/preload'),

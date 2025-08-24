@@ -1,8 +1,8 @@
-
 .husky/
 .git/
 .claude/
 
+# configs
 .prettierrc
 .prettierrc.json
 eslint-config.mjs
@@ -13,12 +13,9 @@ tsconfig.json
 vite.config.ts
 vitest.config.ts
 
+# Context stuff
 CLAUDE.md
 README.md
-
-# __________________________________
-# Also adding .gitgnore stuff...
-# __________________________________
 
 # Dependencies
 node_modules/
@@ -77,3 +74,28 @@ logs/
 *.tmp
 *.temp
 .cache/
+.vite/
+
+# TypeScript build info
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Minified files
+*.min.js
+*.min.css
+*.min.mjs
+
+# Generated files
+*.generated.*
+
+# Binary/media files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.svg
+*.woff
+*.woff2
+*.ttf
+*.eot

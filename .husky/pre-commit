@@ -1,11 +1,11 @@
-# #!/bin/sh
-# npx lint-staged
+#!/bin/sh
+npx lint-staged
 
-# echo "🌱 Pre-commit hook started"
+echo "🌱 Pre-commit hook started"
 
-# npx lint-staged
+npx lint-staged
 
-# echo "Running unit tests..."
-# npm run unit
+echo "Running unit tests..."
+npm run unit
 
-# echo "🌳 Pre-commit hook ended"
+echo "🌳 Pre-commit hook ended"

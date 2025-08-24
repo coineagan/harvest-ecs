@@ -46,6 +46,8 @@ desktop.ini
 # Electron
 electron-builder.yml
 release/
+out/
+.electron-cache/
 
 # Logs
 logs/
@@ -55,3 +57,13 @@ logs/
 *.tmp
 *.temp
 .cache/
+.vite/
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Backup files
+*.bak
+*.backup
+*~

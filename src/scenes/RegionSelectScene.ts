@@ -1,0 +1,1 @@
+// The World Map is generated and displayed in a minature version with X number of regions. You use your mouse to hover over and select a region. When you click on the region, it brings you to the map of that region. You do not see multiple regions when on the actual World Map when you move around.

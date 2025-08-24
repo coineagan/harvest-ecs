@@ -1,0 +1,1 @@
+// effects applied from trinkets.

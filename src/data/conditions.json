@@ -1,0 +1,16 @@
+{
+	"sleep": {
+		"id": "sleep",
+		"name": "Sleep",
+		"onApply": [{ "event": "entityAppliedCondition", "action": "log", "params": { "message": "falls asleep..." } }],
+		"onRemove": [
+			{ "event": "entityRemovedCondition", "action": "log", "params": { "message": "wakes up!" } },
+			{ "event": "entityRemovedCondition", "action": "emit", "params": { "event": "entityWokeUp" } }
+		]
+	},
+	"poison": {
+		"id": "poison",
+		"name": "Poison",
+		"tickDamage": 5
+	}
+}

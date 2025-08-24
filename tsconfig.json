@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"strict": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"sourceMap": true,
+		"outDir": "dist",
+		"rootDir": ".",
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["src/*"]
+		},
+		"lib": ["DOM", "ESNext"],
+		"types": ["vite/client", "node", "vitest/globals"]
+	},
+	"include": ["src/**/*", "tests/**/*", "vite.config.ts", "playwright.config.ts"],
+	"exclude": ["node_modules", "dist"]
+}

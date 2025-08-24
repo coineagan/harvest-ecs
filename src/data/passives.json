@@ -1,0 +1,13 @@
+{
+	"wakeDamage": {
+		"id": "wakeDamage",
+		"name": "Punish Wake",
+		"triggers": [
+			{
+				"event": "entityWokeUp",
+				"action": "dealDamage",
+				"params": { "amount": 10, "type": "magic" }
+			}
+		]
+	}
+}

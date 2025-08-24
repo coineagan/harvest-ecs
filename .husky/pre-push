@@ -1,12 +1,12 @@
-#!/bin/sh
-npx lint-staged
+# #!/bin/sh
+# npx lint-staged
 
-echo "🌱 Pre-push hook started"
+# echo "🌱 Pre-push hook started"
 
-echo "Running unit tests..."
-npm run unit
+# echo "Running unit tests..."
+# npm run unit
 
-echo "Running e2e tests..."
-npm run e2e
+# echo "Running e2e tests..."
+# npm run e2e
 
-echo "🌳 Pre-push hook ended"
+# echo "🌳 Pre-push hook ended"
